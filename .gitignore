@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/backup/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models
+*.pkl
+*.joblib
+models/
+
+# Claude / AI tooling
+.claude/
+CLAUDE.md
+
+# Project admin / drafts
+Subject
+EVENTBRITE_SETUP.md
+EVENTS_DATA_SUMMARY.md
+
+# Notebooks not part of core pipeline
+notebooks/00_quick_start.ipynb
+notebooks/07_project_summary.ipynb
